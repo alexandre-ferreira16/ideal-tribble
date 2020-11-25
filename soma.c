@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int a=2, b=7;
+  int a, b;
   int s;
+
+  scanf("%d", &a);
+  scanf("%d", &b);
 
   s = a + b;
   printf("soma = %d\n", s);
