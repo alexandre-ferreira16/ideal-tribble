@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int subtracao(int a, int b) {
+  return a - b;
+}
+
 int main() {
   int a, b;
   int s;
@@ -9,6 +13,8 @@ int main() {
 
   s = a + b;
   printf("soma = %d\n", s);
+
+  printf("subtracao = %d\n", subtracao(a,b));
 
   return 0;
 }
